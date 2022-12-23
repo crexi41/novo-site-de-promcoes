@@ -1,0 +1,130 @@
+body {
+    background: url(./imagens/natal\ funddo\ verdde.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img-top {
+    text-align: center;
+    margin: 25px 0 0 0;
+}
+
+.img-top img {
+    width: 350px;
+}
+
+.opi {
+    text-align: center;        
+}
+
+.opi p {
+    font-size: 50px;
+    font-weight: bold;
+    color: yellow;
+    text-shadow: 2px 2px black;        
+}
+
+.seta {
+    text-align: center;
+}
+
+.seta img {
+    width: 100px;
+    margin: 15px 15px 0 0;
+}
+
+ul li {    
+    margin: 20px 0 0 0;
+}
+
+nav {
+    text-align: center;   
+    border: none;
+    display: block;
+}
+
+nav a {
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 10px 10px 0 0;
+    color: yellow;
+    text-shadow: 2px 2px black;
+}
+
+nav li:hover {
+    transform: scale(1.2);
+}
+
+.divisor {
+    width: 940px;
+    margin: auto;
+    text-align: center;
+}
+
+.divisor p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 15px 15px ;
+    background: yellow;
+}
+
+.quadro {
+    width: 940px;
+    margin: auto;
+    text-align: center;
+}
+
+.quadro li {
+    display: inline-block;
+        /* vertical-align: top 20px; */
+    margin: 10px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    background: white;
+    width: 150px;
+    border-radius: 25px;
+    margin-bottom: 15px; 
+    box-shadow: 10px 10px 5px black;
+}
+
+.quadro img {
+    height: 70px;
+}
+
+.quadro p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.preco sup {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.preco span {
+    font-size: 15px;
+    font-weight: 700;
+    vertical-align: top;
+} 
+
+@media screen and (max-width: 480px) {
+    .img-top, .quadro, .divisor {
+        width: auto;
+    }
+body {
+    border: solid 2px;
+    background: url(./imagens/fundo\ natal\ vermelho.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 560px;
+}
+    
+}
