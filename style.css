@@ -1,7 +1,7 @@
 body {
     background: url(./imagens/natal\ funddo\ verdde.jpg);
     background-position: top center;
-    background-size: 100% auto;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -46,11 +46,19 @@ nav {
 }
 
 nav a {
+    width: 300px;    
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    padding: 5px 10px;
+    background: rgba(177, 177, 66, 0);
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    border: none;
+    border-radius: 10px;
     font-size: 50px;
     font-weight: bold;
     text-decoration: none;
-    border-radius: 15px;
-    margin: 10px 10px 0 0;
     color: yellow;
     text-shadow: 2px 2px black;
 }
